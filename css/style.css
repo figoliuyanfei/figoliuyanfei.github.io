@@ -170,7 +170,7 @@
 	.align-right {
 		text-align: right;
 	}
-    
+
     .f-right {
         float: right;
     }
@@ -450,6 +450,10 @@
 
 /* Image */
 
+	img{
+		width: auto;
+	}
+
 	.image {
 		border-radius: 0.35em;
 		border: 0;
@@ -516,7 +520,7 @@
 		.image img {
 			border-radius: 0.35em;
 			display: block;
-		}
+				}
 
 		.image.left {
 			float: left;
